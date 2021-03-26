@@ -1,5 +1,14 @@
-.nav{
+.nav-item{
     font-weight: 600;
+}
+.btn-outline-primary {
+    color: #0038a9;
+    border-color: #0038a9;
+}
+.btn-outline-primary:hover {
+    color: white !important;
+    border-color: #0038a9;
+    background-color: #0038a9;
 }
 
 
@@ -38,15 +47,30 @@ color:#0038a9;
  }
  
  @media screen and (max-width: 600px) {
-    div.h-row{
-     display: none;
-    }
+    div.h-row:not(.vertical):not(.horizontal)
+        
+            {
+                border-top: 8px solid;
+                display: table;
+                border-right-width: 300px;
+                border-radius: 180px;
+                margin-bottom: 1rem;
+            }
+        
+    
  
 }
 @media screen and (max-width: 800px) {
-    div.h-row{
-     display: none;
+    div.h-row:not(.vertical):not(.horizontal)
+        
+    {
+        border-top: 8px solid;
+        display: table;
+        border-right-width: 300px;
+        border-radius: 180px;
+        margin-bottom: 1rem;
     }
+
  
 }
 
