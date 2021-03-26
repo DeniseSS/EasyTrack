@@ -1,0 +1,61 @@
+.nav{
+    font-weight: 600;
+}
+
+
+.bgimg{
+    background-image: url('../../img/bgazul.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.bd {
+ border-radius: 35px;
+}
+
+.bluecolor{
+color:#0038a9;
+
+}
+.fw-bold-2{
+    font-weight: 600;
+}
+
+.bgcolor{
+    background-color:#0038a9 ;
+    color:white;
+    }
+.bgcolor:hover{ 
+    color:rgb(231, 231, 231);
+    }
+.bgcolor-black{
+   background: #000000;
+   color:white;
+}
+.bgcolor-black:hover{
+   
+    color:rgb(231, 231, 231);
+ }
+ 
+ @media screen and (max-width: 600px) {
+    div.h-row{
+     display: none;
+    }
+ 
+}
+@media screen and (max-width: 800px) {
+    div.h-row{
+     display: none;
+    }
+ 
+}
+
+.h-row{
+    border:8px solid;
+    height:300px;
+    border-width: 5px;
+    margin-right:0px;
+    display: inline-flex;
+    border-right-width: 2px;
+    border-radius: 180px; 
+}
